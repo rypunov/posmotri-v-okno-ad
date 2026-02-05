@@ -86,7 +86,7 @@ ol {
 .search-form {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
@@ -176,6 +176,38 @@ ol {
   text-decoration: underline;
 }
 
+.button {
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+}
+
 .content__details {
   width: 100%;
   height: 100%;
@@ -243,6 +275,12 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+}
+
+.more-button {
+  margin-top: 30px;   /*TODO*/
+  width: 100%;
+  height: 34px;
 }
 
 .visually-hidden {
