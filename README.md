@@ -23,6 +23,9 @@
 ## 🚀 Запуск
 👉 **[Открыть на GitHub Pages](https://rypunov.github.io/posmotri-v-okno-ad/)**
 
+## 🔗 Ссылки
+https://github.com/rypunov/posmotri-v-okno-ad
+
 ---
 
 *Проект по вёрстке: HTML и JS предоставлены, CSS написан с нуля.*
